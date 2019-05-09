@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stable
 
 RUN apt-get update && apt-get install -y --no-install-recommends wget libexpat1 libmysqlclient18 libodbc1 libpq5
 
